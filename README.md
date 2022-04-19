@@ -65,9 +65,9 @@ Half of our data are unlabelled.
 
 Many commonly used words that does not represent the sentiment at all.
 
-![image 2](./images/wordcloud1.png)
+![image 2](./images/wordcloud 1.png)
 
-![image 3](./images/wordcloud2.png)
+![image 3](./images/wordcloud 2.png)
 
 ## Neural Network model
 
