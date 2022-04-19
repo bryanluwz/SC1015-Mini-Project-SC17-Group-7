@@ -87,11 +87,11 @@ Many commonly used words that does not represent the sentiment at all.
 
 ## What we had learned
 
-- We learnt that they are many data preprocessing to be done before even starting to make and train the machine learning model.
+- We learnt to preprocess textual data before starting to make and train the machine learning model.
 
 - We also learnt how to use `sklearn`'s Multi-Layer Perceptron Classifier in machine learning.
 
-- Being exposed to the Multi-Layer Perceptron (MLP) Classifier using Scikit Learn.
+- How to re-use a previously trained machine learning model.
 
 ## Conclusion
 
