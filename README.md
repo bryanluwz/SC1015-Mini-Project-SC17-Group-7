@@ -30,7 +30,7 @@ How can we predict a movie's rating (positive or negative) solely based on its r
 
 ## Datasets
 
-We used a couple of datasets for training and testing purposes, which are the [IMDB review dataset from kaggle](https://www.kaggle.com/datasets/utathya/imdb-review-dataset) and another [control IMDB dataset from kaggle](https://www.youtube.com/watch?v=dQw4w9WgXcQ) as a benchmark for our model.
+We used a couple of datasets for training and testing purposes, which are the [IMDB review dataset from kaggle](https://www.kaggle.com/datasets/utathya/imdb-review-dataset) and another [control IMDB dataset from kaggle](https://www.kaggle.com/code/shubhamptrivedi/sentiment-analysis-on-imdb-movie-reviews/data?select=IMDB+Dataset.csv) as a benchmark for our model.
 
 We went ahead and cleaned the datasets to our needs and save it into a separate zipped csv file.
 
@@ -72,6 +72,10 @@ We went ahead and cleaned the datasets to our needs and save it into a separate 
 - We learnt that they are many data preprocessing to be done before even starting to make and train the machine learning model.
 
 - We also learnt how to use `sklearn`'s Multi-Layer Perceptron Classifier in machine learning.
+
+- We learned that they are many data preprocessing to be done before even starting to make and train the machine learning model.
+- Being exposure to the MLP Classifier using Scikit Learn 
+
 
 ## Conclusion
 
