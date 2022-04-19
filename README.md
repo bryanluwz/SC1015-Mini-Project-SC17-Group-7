@@ -4,7 +4,7 @@
 
 This is a Mini Project for SC1015 (Introduction to Data Science and Artificial Intelligence) of Nanyang Technological University (NTU).
 
-This project focuses on sentiment analysis of reviews from IMDB, using MLP Classification with `sklearn`. For detailed walkthrough, please view the notebooks in the follwing order:
+This project focuses on sentiment analysis of reviews from IMDB, using Natural Language Processing (NLP) with `sklearn`. For detailed walkthrough, please view the notebooks in the follwing order:
 
 1. [P1_data_preparation.ipynb](./P1_data_preparation.ipynb)
 2. [P2_classification_model.ipynb](./P2_classification_model.ipynb)
@@ -32,7 +32,7 @@ How can we predict a movie's rating (positive or negative) solely based on its r
 
 We used a couple of datasets for training and testing purposes, which are the [IMDB review dataset from kaggle](https://www.kaggle.com/datasets/utathya/imdb-review-dataset) and another [control IMDB dataset from kaggle](https://www.youtube.com/watch?v=dQw4w9WgXcQ) as a benchmark for our model.
 
-We went ahead and cleaned the datasets to our needs and save it into a separate zipped csv file. ผ(•̀_•́ผ)
+We went ahead and cleaned the datasets to our needs and save it into a separate zipped csv file.
 
 - [imdb_master_cleaned.csv](./datasets/imdb_master_cleaned.zip)
 - [IMDB_dataset_cleaned.csv](./datasets/IMDB_dataset_cleaned.zip)
@@ -61,21 +61,21 @@ We went ahead and cleaned the datasets to our needs and save it into a separate 
 
 ## Outcome
 
-After optimising the parameters of our model, we managed to get a maximum of around 76% accuracy on our control dataset.
+- After optimising the parameters of our model, we managed to get a maximum of around 76% accuracy on our control dataset.
 
-We had save the model into our pretrained_models directory for future use. Here are more details on the score of the model.
+- We had save the model into our pretrained_models directory for future use. Here are more details on the score of the model.
 
 ![model score stuff](./images/temp.jpg)
 
 ## What we had learnt
 
-- We learned that they are many data preprocessing to be done before even starting to make and train the machine learning model.
+- We learnt that they are many data preprocessing to be done before even starting to make and train the machine learning model.
 
-- We also learnt that idk
+- We also learnt how to use `sklearn`'s Multi-Layer Perceptron Classifier in machine learning.
 
 ## Conclusion
 
-- Machine Learning can be used for Natural Language Processing and idk...
+- Machine Learning can be used for Natural Language Processing, and for predicting the positive and negative sentiment of movie reviews, in spite of the accuracy not being really high.
 
 ## Demo
 
@@ -84,14 +84,6 @@ We can go to [the demo file](./demo.ipynb) to test our pretrained model on the t
 ## References
 
 1. [Kaggle IMDB review dataset](https://www.kaggle.com/datasets/utathya/imdb-review-dataset)
-2. [Kaggle IMDB control dataset](https://www.kaggle.com/datasets/utathya/imdb-review-dataset)
+2. [Kaggle IMDB control dataset](https://www.kaggle.com/code/shubhamptrivedi/sentiment-analysis-on-imdb-movie-reviews/data?select=IMDB+Dataset.csv)
 3. [scikit-learn working with text data](https://scikit-learn.org/stable/tutorial/text_analytics/working_with_text_data.html)
 4. [Other source](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
-
-## Contributors
-
-(add github links or sth)
-
-- Bryan [@bryanluwz](https://github.com/bryanluwz)
-- Justin [@idk](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
-- Harish [@idk](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
