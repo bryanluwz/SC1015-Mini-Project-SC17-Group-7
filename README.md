@@ -70,6 +70,7 @@ We had save the model into our pretrained_models directory for future use. Here 
 ## What we had learnt
 
 - We learned that they are many data preprocessing to be done before even starting to make and train the machine learning model.
+- Being exposure to the MLP Classifier using Scikit Learn 
 
 - We also learnt that idk
 
@@ -90,8 +91,8 @@ We can go to [the demo file](./demo.ipynb) to test our pretrained model on the t
 
 ## Contributors
 
-(add github links or sth)
+(add github links)
 
 - Bryan [@bryanluwz](https://github.com/bryanluwz)
-- Justin [@idk](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+- Justin [@speaklouderplease](https://github.com/speaklouderplease)
 - Harish [@idk](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
