@@ -21,8 +21,6 @@ This project focuses on sentiment analysis of reviews from IMDB, using MLP Class
 8. [Conclusion](#conclusion)
 9. [Demo](#demo)
 10. [References](#references)
-11. [Contributors](#contributors)
-12. [Others](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
 
 ## Problem Definition and Motivation
 
@@ -30,7 +28,7 @@ How can we predict a movie's rating (positive or negative) solely based on its r
 
 ## Datasets
 
-We used a couple of datasets for training and testing purposes, which are the [IMDB review dataset from kaggle](https://www.kaggle.com/datasets/utathya/imdb-review-dataset) and another [control IMDB dataset from kaggle](https://www.youtube.com/watch?v=dQw4w9WgXcQ) as a benchmark for our model.
+We used a couple of datasets for training and testing purposes, which are the [IMDB review dataset from kaggle](https://www.kaggle.com/datasets/utathya/imdb-review-dataset) and another [control IMDB dataset from kaggle](https://www.kaggle.com/code/shubhamptrivedi/sentiment-analysis-on-imdb-movie-reviews/data?select=IMDB+Dataset.csv) as a benchmark for our model.
 
 We went ahead and cleaned the datasets to our needs and save it into a separate zipped csv file. ผ(•̀_•́ผ)
 
@@ -44,6 +42,7 @@ We went ahead and cleaned the datasets to our needs and save it into a separate 
 | Long training time | We tried reducing the amount of input features for our model by removing words that did not appeat frequent enough, by doing so we can train our model in a couple minutes. | 
 | Long dataset preprocessing time | We saved the processed dataset into a csv file so we can just load the cleaned dataset whenever we need to use it in the future. |
 | 1st dataset came with a large quantity of unlabelled data which prevents us from training the model on a random test-train spilt. | We introduced another dataset to serve as a test dataset for our model. |
+
 ## Exploratory Data Analysis
 
 - We used `matplotlib`, `wordcloud`, `seaborn` and other modules to help us visualise the data we had in hand.
@@ -87,11 +86,3 @@ We can go to [the demo file](./demo.ipynb) to test our pretrained model on the t
 1. [Kaggle IMDB review dataset](https://www.kaggle.com/datasets/utathya/imdb-review-dataset)
 2. [Kaggle IMDB control dataset](https://www.kaggle.com/datasets/utathya/imdb-review-dataset)
 3. [scikit-learn working with text data](https://scikit-learn.org/stable/tutorial/text_analytics/working_with_text_data.html)
-4. [Other source](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
-
-## Contributors
-
-
-- Bryan [@bryanluwz](https://github.com/bryanluwz)
-- Justin [@speaklouderplease](https://github.com/speaklouderplease)
-- Harish [@idk](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
