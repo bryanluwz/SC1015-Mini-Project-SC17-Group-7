@@ -30,7 +30,7 @@ How can we predict a movie's rating (positive or negative) solely based on its r
 
 We used a couple of datasets for training and testing purposes, which are the [IMDB review dataset from kaggle](https://www.kaggle.com/datasets/utathya/imdb-review-dataset) and another [control IMDB dataset from kaggle](https://www.kaggle.com/code/shubhamptrivedi/sentiment-analysis-on-imdb-movie-reviews/data?select=IMDB+Dataset.csv) as a benchmark for our model.
 
-We went ahead and cleaned the datasets to our needs and save it into a separate zipped csv file. ผ(•̀_•́ผ)
+We went ahead and cleaned the datasets to our needs and save it into a separate zipped csv file.
 
 - [imdb_master_cleaned.csv](./datasets/imdb_master_cleaned.zip)
 - [IMDB_dataset_cleaned.csv](./datasets/IMDB_dataset_cleaned.zip)
@@ -41,7 +41,7 @@ We went ahead and cleaned the datasets to our needs and save it into a separate 
 | :------: | ------------ |
 | Long training time | We tried reducing the amount of input features for our model by removing words that did not appeat frequent enough, by doing so we can train our model in a couple minutes. | 
 | Long dataset preprocessing time | We saved the processed dataset into a csv file so we can just load the cleaned dataset whenever we need to use it in the future. |
-| 1st dataset came with a large quantity of unlabelled data which prevents us from training the model on a random test-train spilt. | We introduced another dataset to serve as a test dataset for our model. |
+| 1st dataset came with a large quantity of unlabelled data which prevents us from training the model on a random test-train spilt | We introduced another dataset to serve as a test dataset for our model. |
 
 ## Exploratory Data Analysis
 
@@ -62,14 +62,15 @@ We went ahead and cleaned the datasets to our needs and save it into a separate 
 
 After optimising the parameters of our model, we managed to get a maximum of around 76% accuracy on our control dataset.
 
-We had save the model into our pretrained_models directory for future use. Here are more details on the score of the model.
+We had save the model into our `pretrained_models` directory for future use. Here are more details on the score of the model.
 
 ![model score stuff](./images/temp.jpg)
 
-## What we had learnt
+## What we had learned
 
 - We learned that they are many data preprocessing to be done before even starting to make and train the machine learning model.
-- Being exposure to the MLP Classifier using Scikit Learn 
+
+- Being exposed to the Multi-Layer Perceptron (MLP) Classifier using Scikit Learn.
 
 - We also learnt that idk
 
