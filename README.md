@@ -51,7 +51,7 @@ We went ahead and cleaned the datasets to our needs and save it into a separate 
 
 ![image 1](./images/Chart.png)
 ![image 2](./images/wordcloud1.png)
-![image 3](./images/wordcloud2.png
+![image 3](./images/wordcloud2.png)
 
 ## Neural Network model
 
