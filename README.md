@@ -28,7 +28,7 @@ How can we predict a movie's rating (positive or negative) solely based on its r
 
 ## Datasets
 
-We used a couple of datasets for training and testing purposes, which are the [IMDB review dataset from kaggle](https://www.kaggle.com/datasets/utathya/imdb-review-dataset) and another [control IMDB dataset from kaggle](https://www.kaggle.com/code/shubhamptrivedi/sentiment-analysis-on-imdb-movie-reviews/data?select=IMDB+Dataset.csv) as a benchmark for our model.
+We used a couple of datasets for training and testing purposes, which are the [IMDB review dataset from kaggle](https://www.kaggle.com/datasets/utathya/imdb-review-dataset) and another [control IMDB dataset from kaggle](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews) as a benchmark for our model.
 
 We went ahead and cleaned the datasets to our needs and save it into a separate zipped csv file.
 
@@ -39,7 +39,7 @@ We went ahead and cleaned the datasets to our needs and save it into a separate 
 
 | Problems | Our solution |
 | :------: | ------------ |
-| Long training time | We tried reducing the amount of input features for our model by removing words that did not appeat frequent enough, by doing so we can train our model in a couple minutes. | 
+| Long training time | We tried reducing the amount of input features for our model by removing words that did not appeat frequent enough, by doing so we can train our model in a couple minutes. |
 | Long dataset preprocessing time | We saved the processed dataset into a csv file so we can just load the cleaned dataset whenever we need to use it in the future. |
 | 1st dataset came with a large quantity of unlabelled data which prevents us from training the model on a random test-train spilt | We introduced another dataset to serve as a test dataset for our model. |
 
@@ -54,7 +54,7 @@ We went ahead and cleaned the datasets to our needs and save it into a separate 
 
 ## Neural Network model
 
-- We tried training the model using `sklearn`'s many already pre-built model, we ended using `sklearn`'s neural network Multi-Layer Preceptron [`sklearn.neural_network.MLPClassifier`](https://scikit-learn.org/stable/modules/generated/sklearn.neural_network.MLPClassifier.html) as our machine learning model on classifying the movie reviees into positive or negative.
+- We tried training the model using `sklearn`'s many already pre-built model, such as [`sklearn.nerual_network.MLPRgressor`](https://scikit-learn.org/stable/modules/generated/sklearn.neural_network.MLPRegressor.html) and [`sklearn.naive_bayes.MultinomialNB`](https://scikit-learn.org/stable/modules/generated/sklearn.naive_bayes.MultinomialNB.html), we ended using `sklearn`'s neural network Multi-Layer Preceptron [`sklearn.neural_network.MLPClassifier`](https://scikit-learn.org/stable/modules/generated/sklearn.neural_network.MLPClassifier.html) as our machine learning model on classifying the movie reviews into positive or negative, as it yields the best results compared to the rest.
 
 ![another_image_here](./images/temp.jpg)
 
@@ -74,10 +74,7 @@ We had save the model into our `pretrained_models` directory for future use. Her
 
 - We also learnt how to use `sklearn`'s Multi-Layer Perceptron Classifier in machine learning.
 
-- We learned that they are many data preprocessing to be done before even starting to make and train the machine learning model.
-
 - Being exposed to the Multi-Layer Perceptron (MLP) Classifier using Scikit Learn.
-
 
 ## Conclusion
 
@@ -92,5 +89,5 @@ We can go to [the demo file](./demo.ipynb) to test our pretrained model on the t
 ## References
 
 1. [Kaggle IMDB review dataset](https://www.kaggle.com/datasets/utathya/imdb-review-dataset)
-2. [Kaggle IMDB control dataset](https://www.kaggle.com/code/shubhamptrivedi/sentiment-analysis-on-imdb-movie-reviews/data?select=IMDB+Dataset.csv)
+2. [Kaggle IMDB control dataset](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews)
 3. [scikit-learn working with text data](https://scikit-learn.org/stable/tutorial/text_analytics/working_with_text_data.html)
