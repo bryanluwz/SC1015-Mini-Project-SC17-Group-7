@@ -9,6 +9,14 @@ This project focuses on sentiment analysis of reviews from IMDB, using Natural L
 1. [P1_data_preparation.ipynb](./P1_data_preparation.ipynb)
 2. [P2_classification_model.ipynb](./P2_classification_model.ipynb)
 
+## Requirements
+
+These notebooks utilises some external libraries, please run the following command line in your terminal in the current working directory to install the libraries.
+
+> pip install -r requirements.txt
+
+Or run the first code cell of the notebooks to install the libraries.
+
 ## Table of Contents
 
 1. [Problem Definition and Motivation](#problem-definition-and-motivation)
@@ -47,10 +55,18 @@ We went ahead and cleaned the datasets to our needs and save it into a separate 
 
 - We used `matplotlib`, `wordcloud`, `seaborn` and other modules to help us visualise the data we had in hand.
 
-- Insert some images here
+### Distribution of review sentiment in our dataset
+
+Half of our data are unlabelled.
 
 ![image 1](./images/Chart.png)
+
+### Negative and positive reviews common words
+
+Many commonly used words that does not represent the sentiment at all.
+
 ![image 2](./images/wordcloud1.png)
+
 ![image 3](./images/wordcloud2.png)
 
 ## Neural Network model
@@ -65,7 +81,7 @@ We went ahead and cleaned the datasets to our needs and save it into a separate 
 
 - We had save the model into our pretrained_models directory for future use. Here are more details on the score of the model.
 
-We had save the model into our `pretrained_models` directory for future use. Here are more details on the score of the model.
+- We had save the model into our `pretrained_models` directory for future use. Here are more details on the score of the model.
 
 ![model score stuff](./images/temp.jpg)
 
