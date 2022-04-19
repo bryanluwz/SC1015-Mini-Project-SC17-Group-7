@@ -61,7 +61,7 @@ Half of our data are unlabelled.
 
 ![image 1](./images/Chart.png)
 
-### Negative and positive reviews common words
+### Common words (a.k.a stopwords) in negative and positive reviews
 
 Many commonly used words that does not represent the sentiment at all.
 
