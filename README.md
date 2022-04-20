@@ -49,7 +49,6 @@ We went ahead and cleaned the datasets to our needs and save it into a separate 
 | :------: | ------------ |
 | Long training time | We tried reducing the amount of input features for our model by removing words that did not appeat frequent enough, by doing so we can train our model in a couple minutes. |
 | Long dataset preprocessing time | We saved the processed dataset into a csv file so we can just load the cleaned dataset whenever we need to use it in the future. |
-| 1st dataset came with a large quantity of unlabelled data which prevents us from training the model on a random test-train spilt | We introduced another dataset to serve as a test dataset for our model. |
 
 ## Exploratory Data Analysis
 
