@@ -1,4 +1,4 @@
-# Welcome to Movie Review Sentiment Analysis Repository (WIP)
+# Welcome to Movie Review Sentiment Analysis Repository
 
 ## About
 
