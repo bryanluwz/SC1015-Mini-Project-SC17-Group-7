@@ -72,17 +72,15 @@ Many commonly used words that does not represent the sentiment at all.
 
 - We tried training the model using `sklearn`'s many already pre-built model, such as [`sklearn.nerual_network.MLPRgressor`](https://scikit-learn.org/stable/modules/generated/sklearn.neural_network.MLPRegressor.html) and [`sklearn.naive_bayes.MultinomialNB`](https://scikit-learn.org/stable/modules/generated/sklearn.naive_bayes.MultinomialNB.html), we ended using `sklearn`'s neural network Multi-Layer Preceptron [`sklearn.neural_network.MLPClassifier`](https://scikit-learn.org/stable/modules/generated/sklearn.neural_network.MLPClassifier.html) as our machine learning model on classifying the movie reviews into positive or negative, as it yields the best results compared to the rest.
 
-![another_image_here](./images/temp.jpg)
+<!-- ![another_image_here](./images/temp.jpg) -->
 
 ## Outcome
 
 - After optimising the parameters of our model, we managed to get a maximum of around 76% accuracy on our control dataset.
 
-- We had save the model into our pretrained_models directory for future use. Here are more details on the score of the model.
-
 - We had save the model into our `pretrained_models` directory for future use. Here are more details on the score of the model.
 
-![model score stuff](./images/temp.jpg)
+![model score stuff](./images/outcome.png)
 
 ## What we had learned
 
